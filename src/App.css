@@ -1,38 +1,486 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+  /* npm i aos --save */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-get{
+  border: none;
+  border-radius: 3rem;
+  background-color: #fc5c5c;
+  width: 8rem;
+  height: 3rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn-get a{
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btn-get:hover{
+  background-color: #081c3c;
+  
+}
+.container1{
+  background-color:#fffcf9;
+  width: 100%;
+  height: 50%;
+  padding: 5rem 2.5rem 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  .div1{
+  background-color:white;
+  width: 50%;
+  padding:5.8rem 0rem 0rem 5.8rem ;
   display: flex;
   flex-direction: column;
+  row-gap: 2rem;
+  }
+  .div1 a{
+      text-decoration: none;
+  }
+  .div1 h1{
+      font-size: 3rem;
+  }
+  .div1 span{
+      font-size: 0.8rem;
+  }
+  .div1 img{
+      filter: opacity(60%) 
+  }
+  .div1 img:hover{
+      filter: opacity(100%);
+  }
+  .companies{
+      max-width: 80%;
+      padding-left: -1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+      background-color: white;
+  }
+  .div2{
+  background-color:white;
+  width: 50%;
+  display: flex;
+  justify-content:left;
+  }
+  .introImg{
+      max-width:90%;
+      max-height:90%;
+      
+  }
+  
+
+  
+.container2{
+  background-color: white;
+  width: 100%;
+  padding: 3rem 2.5rem;
+margin: 1rem 0rem;
+}
+.div3{
+  background-color: white;
+  padding:1rem  5.8rem ;
+  margin-bottom: 0rem;
+}
+.div3 h1{
+  font-size: 2.5rem;
+}
+
+
+
+/* CONTAINER3  DESIGN*/
+.container3{
+  background-color:white;
+  width: 100%;
+  padding: 2rem 5.8rem;
+margin: 0.5rem 0rem;
+display: flex;
+flex-direction: row;
+
+}
+
+.cards{
+  background-color: white;
+  padding:1rem 3rem ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 0rem;
+  max-width: 100%;
+}
+
+.card1{
+  background-color: white;
+  max-width: 50rem;
+  max-height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+ 
+}
+.cardImages{
+  max-width: 30%;
+  max-height: 30%;
+  }
+  .cardHeading{
+    font-size: 1.5rem;
+  }
+
+/* CONTAINER 4 and 5 DESIGN*/
+.container4{
+  height: 100%;
+  width: 100%;
+  padding: 1rem 3rem 1rem 10rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+.container5{
+  height: 100%;
+  width: 100%;
+  padding: 1rem 3rem 1rem 10rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+.con4div1{
+width: 600px;
+height:450px;
+background-color: #ffb4b4;  
+}
+.con4div1>img{
+position: absolute;
+}
+.img2 {
+  margin-top: 20px;
+
+}
+.img1{
+  margin-top: 190px;
+  margin-left: 100px;
+  z-index: 1;
+}
+.img3{
+  margin-top: 70px;
+  margin-left: 300px;
+  z-index: 999;
+}
+.con4div2{
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  width: 600px;
+height:450px;
+  padding:6rem  4rem 1rem 2rem  ;
+  row-gap: 1rem;
+}
+.con4div2 p {
+  font-size: 1rem;
+}
+
+
+/* CONTAINER6  DESIGN*/
+.container6{
+
+  padding: 7rem 10rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  
+  }
+  .container6 h1{
+      font-size: 3rem;
+  }
+  .container6 p{
+      font-size: 1rem;
+  }
+
+  
+/* CONTAINER7  DESIGN*/
+.container7{
+  background-color: white;
+  width: 100%;
+height: 50%;
+padding: 0.3rem 2.5rem 1rem;
+margin-bottom: 0rem;
+display: flex;
+flex-direction: row;
+gap: 0rem;
+}
+.con6div1{
+  background-color:white;
+  width: 50%;
+  padding:2rem 0rem 2rem 4rem; ;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: right;
+}
+.con6Imaage{
+  
+max-width: 90%;
+max-height: 90%;
+}
+.con6div2{
+  background-color:white;
+  width: 50%;
+  padding:2rem  2rem ;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  }
+  .con6div2, ul{
+     list-style: none;
+    }
+    .con6div2, ul li{
+        font-size: 1.5rem;
+        
+    }
+    .con6div2, p{
+        font-size: 14px;
+    }
+   
+/* CONTAINER7  DESIGN*/
+.container8{
+  padding: 7rem 10rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 209, 154);
+  
+  }
+  .container8 h1{
+      font-size: 3rem;
+  }
+
+  
+/* FOOTER  DESIGN*/
+.footer{
+  padding: 4rem 12rem;
+  background-color:#081c3c;
+  width: 100%;
+ height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  color: white;
+  justify-content: space-around;
+  margin: 0rem 0rem;
+  gap: 1rem;
+  column-gap: 2rem;
+
+}
+.f1, .f2, .f3, .f4, .f5{
+
+ max-width: 100%;
+ max-height: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ padding: 1rem;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  column-gap: 1rem;
+}
+.ficons{
+max-width: 30%;
+max-height: 30%;
+}
+.flogo{
+  max-width: 50%;
+  max-height: 50%;  
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footer, .f1, a{
+text-decoration: none;
+color: white;
+}
+.fheading{
+  font-size: 1.5rem;
+}
+.fbtns{
+  font-size: 1rem;
+}
+.emailInput{
+  width: 14rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 3rem;
+}
+.btn-fget{
+  background-color: #fc5c5c;
+  width: 14rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 3rem;
+  font-weight: bold;
+  color:white ;
+}
+.btn-fget:hover{
+  background-color: white;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.container9{
+  width: 100%;
+  height: 100vh;
+  background-color:white;
+  padding: 5rem 12rem;
+ display: flex;
+ flex-direction: row;
+}
+.con8div1{
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  margin-top: 5rem;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.con8h{
+  font-size: 2.5rem;
+}
+.con8p{
+  font-size: 1rem;
+}
+.con8a{
+  color:#fc5c5c;
+  text-decoration: underline;
+  
+}
+
+.con8div2{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0rem;
+  height: 85vh;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.con8div2by1{
+  border-radius: 1rem;
+width: 380px;
+height: 65vh;
+margin-top: 2.5rem;
+padding: 0rem 0rem;
+background-color:antiquewhite;
+display: flex;
+flex-direction: column;
+row-gap: 1rem;
+box-shadow: 0px 0px 5px rgb(208, 204, 204);
+}
+
+
+.con8div2by2{
+  box-shadow: 0px 0px 5px rgb(208, 204, 204);
+  border-radius: 1rem;
+  background-color: beige;
+ 
+  height: 75vh;
+  width: 400px;
+}
+
+.starterPlan1{
+  background-color: gainsboro;
+  height: 10vh;
+  width: 100%;
+  border-radius: 1rem 1rem 0rem 0rem ;
+  display: flex;
+  padding: 1rem 0rem;
+  justify-content: center;
+}
+.starterPlan2{
+  background-color:#ffb4b4;
+  height: 10vh;
+  border-radius: 1rem 1rem 0rem 0rem ;
+  display: flex;
+  padding: 1rem 0rem;
+  justify-content: center;
+}
+.starterPlan h1{
+  font-size: 2rem;
+}
+.paymentPlan1{
+  display: flex;
+  padding: 1rem 0rem;
+  justify-content: center;
+  margin-top: 0rem;
+}
+.paymentPlan{
+  display: flex;
+  padding: 1rem 0rem;
+  justify-content: center;
+  margin-top: 0rem;
+}
+.planval {
+  font-size: 2rem;
+}
+.planMonth{
+  font-size: 1rem;
+  color: gray;
+}
+
+.con8div2Ul1{
+  font-size: 1rem;
+  padding-left: 1rem;
+
+ margin: 0rem 0rem ;
+}
+.con8div2Ul1 ul li{
+  font-size: 1rem;
+  line-height: 2rem;
+  border-bottom: 1px solid gainsboro;
+ 
+}
+
+.con8div2Ul{
+  font-size: 1rem;
+  padding-left: 1rem;
+
+ margin: 0rem 0rem ;
+}
+.con8div2Ul ul li{
+  font-size: 1rem;
+  line-height: 2rem;
+  border-bottom: 1px solid gainsboro;
+ 
+}
+.btn-div1{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.btn-div2{
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: center;
+ 
 }
